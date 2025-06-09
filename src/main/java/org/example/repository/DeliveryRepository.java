@@ -1,7 +1,6 @@
-// DeliveryRepository.java
 package org.example.repository;
 
-import org.example.Delivery; // Import your Delivery entity
+import org.example.Delivery;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

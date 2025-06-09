@@ -1,6 +1,5 @@
 package org.example;
 
-// Feedback.java
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;

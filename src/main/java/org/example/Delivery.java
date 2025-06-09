@@ -1,6 +1,5 @@
 package org.example;
 
-// Delivery.java
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
@@ -14,7 +13,7 @@ public class Delivery {
     @OneToOne
     @JoinColumn(name = "order_id")
     private Order order;
-    private String deliveryZone; // near, mid, far
+    private String deliveryZone;
     private LocalDateTime scheduledDeliveryTime;
-    private String deliveryStatus; // Scheduled, Out for Delivery, Delivered
+    private String deliveryStatus;
 }

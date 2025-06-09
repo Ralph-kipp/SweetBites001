@@ -1,4 +1,4 @@
-package org.example; // Or your actual model package
+package org.example;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -22,6 +22,6 @@ public class Payment {
     private String transactionId;
     private String paymentStatus;
     private LocalDateTime paymentDate;
-    private Double amount; // Or BigDecimal for better precision
+    private Double amount;
 
 }

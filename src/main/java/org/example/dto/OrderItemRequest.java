@@ -1,10 +1,10 @@
-package org.example.dto; // Or com.sweetbiteorders.dto
+package org.example.dto;
 
 public class OrderItemRequest {
     private Long productId;
     private Integer quantity;
 
-    // Constructors
+
     public OrderItemRequest() {
     }
 
@@ -13,7 +13,7 @@ public class OrderItemRequest {
         this.quantity = quantity;
     }
 
-    // Getters and Setters
+  
     public Long getProductId() {
         return productId;
     }

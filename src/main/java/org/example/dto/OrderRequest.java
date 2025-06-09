@@ -1,4 +1,4 @@
-package org.example.dto;// Or com.sweetbiteorders.dto
+package org.example.dto;
 import org.example.Customer;
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class OrderRequest {
     private String deliveryDate;
     private String deliveryZone;
 
-    // Constructors (optional, but good practice)
+  
     public OrderRequest() {
     }
 
@@ -19,7 +19,7 @@ public class OrderRequest {
         this.deliveryZone = deliveryZone;
     }
 
-    // Getters and Setters
+
     public Customer getCustomer() {
         return customer;
     }

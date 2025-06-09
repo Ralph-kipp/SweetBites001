@@ -1,4 +1,4 @@
-package org.example.Service; // Or your actual service package
+package org.example.Service; 
 
 import org.example.Order;
 import org.example.Payment;
@@ -20,7 +20,7 @@ public class PaymentService {
         payment.setPaymentMethod(paymentMethod);
         payment.setPaymentStatus("PENDING");
         payment.setPaymentDate(LocalDateTime.now());
-        payment.setAmount(order.getTotalCost()); // Assuming totalCost is set on the Order
+        payment.setAmount(order.getTotalCost()); 
         return paymentRepository.save(payment);
     }
 
@@ -36,5 +36,4 @@ public class PaymentService {
                 .orElseThrow(() -> new RuntimeException("Payment with ID " + paymentId + " not found"));
     }
 
-    // Potentially methods for initiating payment with a gateway would go here
 }

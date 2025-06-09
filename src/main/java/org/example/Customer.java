@@ -15,7 +15,7 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    // You might also have a setter:
+
     @Setter
     @Getter
     private String phoneNumber;
